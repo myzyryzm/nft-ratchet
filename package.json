@@ -1,0 +1,11 @@
+{
+    "name": "ratchet-nft",
+    "version": "1.0.0",
+    "description": "NFT for Ratchet",
+    "author": "Ben Kurrek",
+    "license": "ISC",
+    "scripts": {
+        "build": "cd nft-contract && bash build.sh && cd ../..",
+        "init": "rustup target add wasm32-unknown-unknown"
+    }
+}
